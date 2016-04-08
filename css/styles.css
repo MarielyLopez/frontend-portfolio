@@ -1,3 +1,94 @@
 /*
 Aqui escribe tu codigo de CSS.
 */
+body{
+    padding: 10px;
+    height: 100%;
+}
+
+.logo{
+    float: left;
+    width: 280px;
+    border-top-color: blue;
+    margin-bottom: 20px;
+}
+
+.right{
+    text-align: right;
+    line-height: 10px;
+    font-family: Arial;
+}
+
+
+table, {
+    border: 1px #70b8ff solid;
+}
+
+td{
+    width:800px;
+    height:350px;
+    border-radius: 10px;
+    margin-right: 50%;
+    padding-right: 40px;
+    text-align: center;/*centering text*/
+    font-family: arial;
+    color: white;
+}
+
+.search{
+    background-color: #1F93DD;
+}
+
+.inventory{
+    background-color: #C623D8;
+}
+
+
+.portfolio{
+    background-color: #DF0041;
+}
+
+.battle{
+    background-color: #B0E78E;
+}
+
+.test {
+    margin: auto;
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+
+.hello{
+    text-align: center;
+    bottom: 0px;
+    color: red;
+}
+
+.featured{
+    /*text-align: left;*/
+    color: :gray;
+    font-family: Arial;
+}
+
+
+/*.search-engine{
+    padding: 20px;
+    background-color:#0094DF;
+    width: 40%;
+    height: 100%;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+.textOnBox{
+    color: white;
+    top:50%;
+}*/
+/*div{
+    border:1px solid blue;
+}*/
