@@ -19,20 +19,21 @@ body{
     font-family: Arial;
 }
 
-
-table, {
-    border: 1px #70b8ff solid;
+.featured{
+    /*text-align: left;*/
+    color: #8C7B76;
+    font-family: Arial;
 }
 
 td{
     width:800px;
     height:350px;
     border-radius: 10px;
-    margin-right: 50%;
-    padding-right: 40px;
-    text-align: center;/*centering text*/
+    /*margin-right: 50%;*/
+    /*padding-right: 40px;*/
     font-family: arial;
     color: white;
+    text-align: center;/*centering text*/
 }
 
 .search{
@@ -52,6 +53,8 @@ td{
     background-color: #B0E78E;
 }
 
+
+
 .test {
     margin: auto;
     width: 90%;
@@ -62,17 +65,19 @@ td{
 }
 
 
-.hello{
+.name{
     text-align: center;
     bottom: 0px;
-    color: red;
+    color: black;
 }
 
-.featured{
-    /*text-align: left;*/
-    color: :gray;
-    font-family: Arial;
+.sub-name{
+    text-align: center;
+    bottom: 0px;
+    color:#008EC7;
 }
+
+
 
 
 /*.search-engine{
