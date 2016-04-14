@@ -3,7 +3,7 @@ Aqui escribe tu codigo de CSS.
 */
 body{
     padding: 10px;
-    height: 100%;
+    height: 10%;
 }
 
 .logo{
@@ -20,7 +20,6 @@ body{
 }
 
 .featured{
-    /*text-align: left;*/
     color: #8C7B76;
     font-family: Arial;
 }
@@ -28,22 +27,13 @@ body{
 td{
     width:800px;
     height:350px;
-    border-radius: 10px;
-    /*margin-right: 50%;*/
-    /*padding-right: 40px;*/
     font-family: arial;
-    color: white;
     text-align: center;/*centering text*/
-}
-
-.search{
-    background-color: #1F93DD;
 }
 
 .inventory{
     background-color: #C623D8;
 }
-
 
 .portfolio{
     background-color: #DF0041;
@@ -53,17 +43,37 @@ td{
     background-color: #B0E78E;
 }
 
+.register{
+    background-color: #0040ff;
+}
 
+.countries{
+    background-color: #ff6600;
+}
 
+.guess{
+    background-color:  #00b300;
+}
+
+.factorial{
+    background-color: #cccc00;
+}
+
+.babosaC{
+    width: 95%;
+    height: 85%;
+    border-radius: 20px;
+
+}
 .test {
     margin: auto;
     width: 90%;
     height: 70%;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 10px;
     margin-left: 5%;
+    top:50%;
 }
-
 
 .name{
     text-align: center;
@@ -71,29 +81,27 @@ td{
     color: black;
 }
 
-.sub-name{
+.subName{
     text-align: center;
     bottom: 0px;
     color:#008EC7;
 }
 
-
-
-
-/*.search-engine{
-    padding: 20px;
-    background-color:#0094DF;
-    width: 40%;
-    height: 100%;
-    border-radius: 5px;
-    margin-left: 10px;
-}
-
-
 .textOnBox{
     color: white;
+    padding-top: 10%;
     top:50%;
-}*/
-/*div{
-    border:1px solid blue;
-}*/
+    font-size: 45px;
+}
+
+span {
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+a{
+    color: #008EC7;
+}
